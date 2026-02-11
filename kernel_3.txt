@@ -1,0 +1,698 @@
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 22946 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==WARNING== Unable to access the following 6 metrics: ctc__rx_bytes_data_user.sum, ctc__rx_bytes_data_user.sum.pct_of_peak_sustained_elapsed, ctc__rx_bytes_data_user.sum.per_second, ctc__tx_bytes_data_user.sum, ctc__tx_bytes_data_user.sum.pct_of_peak_sustained_elapsed, ctc__tx_bytes_data_user.sum.per_second.
+
+
+==PROF== Profiling "convolution_var_3": Application replay pass 1
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 22946
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 22960 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 2
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 22960
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 22974 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 3
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 22974
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 22990 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 4
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 22990
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23006 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 5
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23006
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23020 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 6
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23020
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23034 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 7
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23034
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23048 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 8
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23048
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23062 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 9
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23062
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23076 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 10
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23076
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23091 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 11
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23091
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23105 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 12
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23105
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23119 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 13
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23119
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23133 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 14
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23133
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23147 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 15
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23147
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23161 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 16
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23161
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23175 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 17
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23175
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23189 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 18
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23189
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23203 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 19
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23203
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23217 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 20
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23217
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23233 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 21
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23233
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23247 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 22
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23247
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23261 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 23
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23261
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23275 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 24
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23275
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23289 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 25
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23289
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23303 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 26
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23303
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23317 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 27
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23317
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23331 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 28
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23331
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23345 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 29
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23345
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23359 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 30
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23359
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23373 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 31
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23373
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23387 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 32
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23387
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23401 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 33
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23401
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23415 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 34
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23415
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23429 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 35
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23429
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23443 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 36
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23443
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23457 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 37
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23457
+
+==ERROR== An error was reported by the driver:
+==ERROR== Cuda driver is not compatible with Nsight Compute.
+==PROF== Connected to process 23471 (/home/sesterce/conv)
+
+==WARNING== An error was reported by the driver:
+==WARNING== Failed to load Nsight Compute CUDA modules.
+==PROF== Profiling "convolution_var_3": Application replay pass 38
+var_1: P[0,0] = 0.360000
+var_2: P[0,0] = 0.360000
+var_3: P[0,0] = 0.360000
+==PROF== Disconnected from process 23471
+==PROF== Creating report from application replay data: 0%.....................100%
+[22946] conv@127.0.0.1
+  convolution_var_3(const float *, float *, int, int) (37, 37, 1)x(28, 28, 1), Context 1, Stream 7, Device 0, CC 9.0
+    Section: GPU Speed Of Light Throughput
+    ----------------------- ----------- ------------
+    Metric Name             Metric Unit Metric Value
+    ----------------------- ----------- ------------
+    DRAM Frequency                  Ghz         1.59
+    SM Frequency                    Ghz         1.10
+    Elapsed Cycles                cycle        37564
+    Memory Throughput                 %        49.35
+    DRAM Throughput                   %         6.09
+    Duration                         us        33.92
+    L1/TEX Cache Throughput           %        55.42
+    L2 Cache Throughput               %        16.13
+    SM Active Cycles              cycle     32980.04
+    Compute (SM) Throughput           %        34.42
+    ----------------------- ----------- ------------
+
+    OPT   This workload exhibits low compute throughput and memory bandwidth utilization relative to the peak           
+          performance of this device. Achieved compute throughput and/or memory bandwidth below 60.0% of peak           
+          typically indicate latency issues. Look at Scheduler Statistics and Warp State Statistics for potential       
+          reasons.                                                                                                      
+
+    Section: GPU Speed Of Light Roofline Chart
+    INF   The ratio of peak float (FP32) to double (FP64) performance on this device is 2:1. The workload achieved 5%   
+          of this device's FP32 peak performance and 0% of its FP64 peak performance. See the Profiling Guide           
+          (https://docs.nvidia.com/nsight-compute/ProfilingGuide/index.html#roofline) for more details on roofline      
+          analysis.                                                                                                     
+
+    Section: PM Sampling
+    ------------------------- ----------- ------------
+    Metric Name               Metric Unit Metric Value
+    ------------------------- ----------- ------------
+    Maximum Buffer Size             Mbyte        26.67
+    Maximum Sampling Interval          us         1.50
+    # Pass Groups                                    1
+    ------------------------- ----------- ------------
+
+    Section: Compute Workload Analysis
+    -------------------- ----------- ------------
+    Metric Name          Metric Unit Metric Value
+    -------------------- ----------- ------------
+    Executed Ipc Active   inst/cycle         1.54
+    Executed Ipc Elapsed  inst/cycle         1.37
+    Issue Slots Busy               %        34.42
+    Issued Ipc Active     inst/cycle         1.55
+    SM Busy                        %        34.42
+    -------------------- ----------- ------------
+
+    OPT   Est. Local Speedup: 86.5%                                                                                     
+          All compute pipelines are under-utilized. Either this workload is very small or it doesn't issue enough warps 
+          per scheduler. Check the Launch Statistics and Scheduler Statistics sections for further details.             
+
+    Section: Memory Workload Analysis
+    -------------------------------------- ----------- ------------
+    Metric Name                            Metric Unit Metric Value
+    -------------------------------------- ----------- ------------
+    Local Memory Spilling Requests                                0
+    Local Memory Spilling Request Overhead           %            0
+    Memory Throughput                          Gbyte/s       123.85
+    Mem Busy                                         %        49.35
+    Max Bandwidth                                    %        26.28
+    L1/TEX Hit Rate                                  %        25.31
+    L2 Persisting Size                           Mbyte         9.83
+    L2 Compression Success Rate                      %            0
+    L2 Compression Ratio                             %            0
+    L2 Compression Input Sectors                sector       159495
+    L2 Hit Rate                                      %        69.09
+    Mem Pipes Busy                                   %        26.28
+    -------------------------------------- ----------- ------------
+
+    Section: Memory Workload Analysis Chart
+    OPT   Est. Speedup: 4.436%                                                                                          
+          Out of the 5103840.0 bytes sent to the L2 Compression unit only 0.00% were successfully compressed. To        
+          increase this success rate, consider marking only those memory regions as compressible that contain the most  
+          zero values and/or expose the most homogeneous values.                                                        
+
+    Section: Memory Workload Analysis Tables
+    OPT   Est. Speedup: 20.01%                                                                                          
+          The memory access pattern for global loads from L1TEX might not be optimal. On average, only 19.0 of the 32   
+          bytes transmitted per sector are utilized by each thread. This could possibly be caused by a stride between   
+          threads. Check the Source Counters section for uncoalesced global loads.                                      
+    ----- --------------------------------------------------------------------------------------------------------------
+    OPT   Est. Speedup: 9.816%                                                                                          
+          The memory access pattern for global stores to L1TEX might not be optimal. On average, only 25.6 of the 32    
+          bytes transmitted per sector are utilized by each thread. This could possibly be caused by a stride between   
+          threads. Check the Source Counters section for uncoalesced global stores.                                     
+    ----- --------------------------------------------------------------------------------------------------------------
+    OPT   Est. Speedup: 27.3%                                                                                           
+          The memory access pattern for shared loads might not be optimal and causes on average a 2.0 - way bank        
+          conflict across all 855625 shared load requests.This results in 830839 bank conflicts,  which represent       
+          49.27% of the overall 1686464 wavefronts for shared loads. Check the Source Counters section for uncoalesced  
+          shared loads.                                                                                                 
+    ----- --------------------------------------------------------------------------------------------------------------
+    OPT   Est. Speedup: 20.28%                                                                                          
+          The memory access pattern for shared stores might not be optimal and causes on average a 1.6 - way bank       
+          conflict across all 76664 shared store requests.This results in 44258 bank conflicts,  which represent        
+          36.60% of the overall 120922 wavefronts for shared stores. Check the Source Counters section for uncoalesced  
+          shared stores.                                                                                                
+
+    Section: Scheduler Statistics
+    ---------------------------- ----------- ------------
+    Metric Name                  Metric Unit Metric Value
+    ---------------------------- ----------- ------------
+    One or More Eligible                   %        38.78
+    Issued Warp Per Scheduler                        0.39
+    No Eligible                            %        61.22
+    Active Warps Per Scheduler          warp        11.22
+    Eligible Warps Per Scheduler        warp         1.52
+    ---------------------------- ----------- ------------
+
+    OPT   Est. Local Speedup: 50.65%                                                                                    
+          Every scheduler is capable of issuing one instruction per cycle, but for this workload each scheduler only    
+          issues an instruction every 2.6 cycles. This might leave hardware resources underutilized and may lead to     
+          less optimal performance. Out of the maximum of 16 warps per scheduler, this workload allocates an average    
+          of 11.22 active warps per scheduler, but only an average of 1.52 warps were eligible per cycle. Eligible      
+          warps are the subset of active warps that are ready to issue their next instruction. Every cycle with no      
+          eligible warp results in no instruction being issued and the issue slot remains unused. To increase the       
+          number of eligible warps, avoid possible load imbalances due to highly different execution durations per      
+          warp. Reducing stalls indicated on the Warp State Statistics and Source Counters sections can help, too.      
+
+    Section: Warp State Statistics
+    ---------------------------------------- ----------- ------------
+    Metric Name                              Metric Unit Metric Value
+    ---------------------------------------- ----------- ------------
+    Warp Cycles Per Issued Instruction             cycle        28.94
+    Warp Cycles Per Executed Instruction           cycle        29.14
+    Avg. Active Threads Per Warp                                28.82
+    Avg. Not Predicated Off Threads Per Warp                    27.78
+    ---------------------------------------- ----------- ------------
+
+    Section: Instruction Statistics
+    ---------------------------------------- ----------- ------------
+    Metric Name                              Metric Unit Metric Value
+    ---------------------------------------- ----------- ------------
+    Avg. Executed Instructions Per Scheduler        inst     12658.57
+    Executed Instructions                           inst      5772309
+    Avg. Issued Instructions Per Scheduler          inst     12749.22
+    Issued Instructions                             inst      5813645
+    ---------------------------------------- ----------- ------------
+
+    Section: Launch Statistics
+    -------------------------------- --------------- ---------------
+    Metric Name                          Metric Unit    Metric Value
+    -------------------------------- --------------- ---------------
+    Block Size                                                   784
+    Cluster Scheduling Policy                           PolicySpread
+    Cluster Size                                                   0
+    Function Cache Configuration                     CachePreferNone
+    Grid Size                                                   1369
+    Registers Per Thread             register/thread              32
+    Shared Memory Configuration Size           Kbyte           32.77
+    Driver Shared Memory Per Block       Kbyte/block            1.02
+    Dynamic Shared Memory Per Block       byte/block               0
+    Static Shared Memory Per Block       Kbyte/block            4.10
+    # SMs                                         SM             114
+    Stack Size                                                  1024
+    Threads                                   thread         1073296
+    # TPCs                                                        57
+    Enabled TPC IDs                                              all
+    Uses Green Context                                             0
+    Waves Per SM                                                6.00
+    -------------------------------- --------------- ---------------
+
+    OPT   Est. Speedup: 2%                                                                                              
+          Threads are executed in groups of 32 threads called warps. This kernel launch is configured to execute 784    
+          threads per block. Consequently, some threads in a warp are masked off and those hardware resources are       
+          unused. Try changing the number of threads per block to be a multiple of 32 threads. Between 128 and 256      
+          threads per block is a good initial range for experimentation. Use smaller thread blocks rather than one      
+          large thread block per multiprocessor if latency affects performance.  This is particularly beneficial to     
+          kernels that frequently call __syncthreads(). See the Hardware Model                                          
+          (https://docs.nvidia.com/nsight-compute/ProfilingGuide/index.html#metrics-hw-model) description for more      
+          details on launch configurations.                                                                             
+
+    Section: Occupancy
+    ------------------------------- ----------- ------------
+    Metric Name                     Metric Unit Metric Value
+    ------------------------------- ----------- ------------
+    Max Active Clusters                 cluster            0
+    Max Cluster Size                      block            8
+    Overall GPU Occupancy                     %            0
+    Cluster Occupancy                         %            0
+    Block Limit Barriers                  block           32
+    Block Limit SM                        block           32
+    Block Limit Registers                 block            2
+    Block Limit Shared Mem                block            6
+    Block Limit Warps                     block            2
+    Theoretical Active Warps per SM        warp           50
+    Theoretical Occupancy                     %        78.12
+    Achieved Occupancy                        %        70.37
+    Achieved Active Warps Per SM           warp        45.03
+    ------------------------------- ----------- ------------
+
+    OPT   Est. Speedup: 21.88%                                                                                          
+          The 12.50 theoretical warps per scheduler this kernel can issue according to its occupancy are below the      
+          hardware maximum of 16. This kernel's theoretical occupancy (78.1%) is limited by the number of required      
+          registers, and the number of warps within each block.                                                         
+
+    Section: GPU and Memory Workload Distribution
+    -------------------------- ----------- ------------
+    Metric Name                Metric Unit Metric Value
+    -------------------------- ----------- ------------
+    Average DRAM Active Cycles       cycle         3282
+    Total DRAM Elapsed Cycles        cycle      2156288
+    Average L1 Active Cycles         cycle     32980.04
+    Total L1 Elapsed Cycles          cycle      4222450
+    Average L2 Active Cycles         cycle     29914.96
+    Total L2 Elapsed Cycles          cycle      2952880
+    Average SM Active Cycles         cycle     32980.04
+    Total SM Elapsed Cycles          cycle      4222450
+    Average SMSP Active Cycles       cycle     32876.13
+    Total SMSP Elapsed Cycles        cycle     16889800
+    -------------------------- ----------- ------------
+
+    Section: Source Counters
+    ------------------------- ----------- ------------
+    Metric Name               Metric Unit Metric Value
+    ------------------------- ----------- ------------
+    Branch Instructions Ratio           %         0.10
+    Branch Instructions              inst       563621
+    Branch Efficiency                   %        87.50
+    Avg. Divergent Branches      branches        84.06
+    ------------------------- ----------- ------------
+
+    OPT   Est. Speedup: 24%                                                                                             
+          This kernel has uncoalesced global accesses resulting in a total of 133378 excessive sectors (30% of the      
+          total 450436 sectors). Check the L2 Theoretical Sectors Global Excessive table for the primary source         
+          locations. The CUDA Programming Guide                                                                         
+          (https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#device-memory-accesses) has additional      
+          information on reducing uncoalesced device memory accesses.                                                   
+    ----- --------------------------------------------------------------------------------------------------------------
+    OPT   Est. Speedup: 42.86%                                                                                          
+          This kernel has uncoalesced shared accesses resulting in a total of 865208 excessive wavefronts (48% of the   
+          total 1797497 wavefronts). Check the L1 Wavefronts Shared Excessive table for the primary source locations.   
+          The CUDA Best Practices Guide                                                                                 
+           (https://docs.nvidia.com/cuda/cuda-c-best-practices-guide/index.html#shared-memory-in-matrix-multiplication-c
+          -ab) has an example on optimizing shared memory accesses.                                                     
+
