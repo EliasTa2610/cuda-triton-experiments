@@ -71,9 +71,9 @@ __global__ void flash_attention(
             for (int c = col ; c < kv_block_size ; c += D) {
                 float acc = 0.0f;
                 for (int k = 0 ; k < D ; k++) {
-                    acc += Q_block[threadIdx.y * D + k] * K_block[c * D + k];
+                    acc += Q_block[threadIdx.y * D + k] * K_block[c * D + k]; // Scale dot product by sqrt(D)
                 }
-                intermediate[threadIdx.y * block_size + c] = acc;
+                intermediate[threadIdx.y * block_size + c] = acc / sqrtf(D);
             }
         }
         __syncthreads();
