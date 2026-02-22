@@ -23,6 +23,7 @@ __global__ void flash_attention(
     int D) {
    
     assert(blockDim.x == D && blockDim.y <= N && "Block size must be (D, <=N)");
+    assert(D % 32 == 0 && "D must be divisible by 32 for shuffle-based reduction");
 
     int row = threadIdx.y + blockIdx.x * blockDim.y; 
     int col = threadIdx.x;
@@ -66,38 +67,54 @@ __global__ void flash_attention(
         }
         __syncthreads();
 
-        if (row < N && col < kv_block_size) {
-            float acc = 0.0f;
-            for (int k = 0 ; k < D ; k++) {
-                acc += Q_block[threadIdx.y * D + k] * K_block[col * D + k];
+        if (row < N) {
+            for (int c = col ; c < kv_block_size ; c += D) {
+                float acc = 0.0f;
+                for (int k = 0 ; k < D ; k++) {
+                    acc += Q_block[threadIdx.y * D + k] * K_block[c * D + k];
+                }
+                intermediate[threadIdx.y * block_size + c] = acc;
             }
-            intermediate[threadIdx.y * block_size + col] = acc;
         }
         __syncthreads();
         
-        float old_max;
-        float old_normalizer;
+        float old_max; float old_normalizer;
         if (row < N) {
             old_max = m_block[threadIdx.y];
             old_normalizer = l_block[threadIdx.y];
         }
         __syncthreads();
 
-        // Do per-row work with first lane
-        if (row < N && col == 0) {
-            // Reduce tile
-            float tile_max = -INFINITY;
-            float tile_normalizer = 0.0f;
-            for (int k = 0; k < kv_block_size; k++) {
-                float new_tile_max = fmaxf(tile_max, intermediate[threadIdx.y * block_size + k]);
-                tile_normalizer = tile_normalizer * expf(tile_max - new_tile_max) + expf(intermediate[threadIdx.y * block_size + k] - new_tile_max);
-                tile_max = new_tile_max;
+        // Use leftmost warp to carry out online softmax 
+        float thread_max = -INFINITY; float thread_normalizer = 0.0f;
+        if (row < N && col < 32) {
+            for (int k = col ; k < kv_block_size ; k += 32) {
+                float new_thread_max = fmaxf(thread_max, intermediate[threadIdx.y * block_size + k]);
+                thread_normalizer = thread_normalizer * expf(thread_max - new_thread_max) + expf(intermediate[threadIdx.y * block_size + k] - new_thread_max);
+                thread_max = new_thread_max;
             }
-
-            float new_max = fmaxf(old_max, tile_max);
-            l_block[threadIdx.y] = old_normalizer * expf(old_max - new_max) + tile_normalizer * expf(tile_max - new_max);
-            m_block[threadIdx.y] = new_max; 
         }
+        __syncthreads();
+
+        if (row < N && col < 32) {
+            uint active_lanes = 0xffffffffu;
+            for (int o = 16 ; o > 0 ; o /= 2) {
+                float other_thread_max = __shfl_down_sync(active_lanes, thread_max, o);
+                float other_thread_normalizer = __shfl_down_sync(active_lanes, thread_normalizer, o);
+
+                float new_thread_max = fmaxf(thread_max, other_thread_max);
+                thread_normalizer = thread_normalizer * expf(thread_max - new_thread_max) + other_thread_normalizer * expf(other_thread_max - new_thread_max);
+                thread_max = new_thread_max;
+            }
+        }
+        __syncthreads();
+
+        if (col == 0 && row < N) {
+            float new_max = fmaxf(old_max, thread_max);
+            float new_normalizer = old_normalizer * expf(old_max - new_max) + thread_normalizer * expf(thread_max - new_max);
+            l_block[threadIdx.y] = new_normalizer;
+            m_block[threadIdx.y] = new_max;
+        } 
         __syncthreads();
 
         // Accumulate in O block
